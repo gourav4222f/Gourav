@@ -1,0 +1,20 @@
+@import "tailwindcss";
+:root {
+  --champagne-pink: #efd9ce;
+  --mauve: #dec0f1;
+  --wisteria: #b79ced;
+  --tropical-indigo: #957fef;
+  --medium-slate-blue: #7161ef;
+  --bg-primary: #0f0c24;
+  --text-primary: #ffffff;
+  --text-secondary: #c1b9f9;
+  --card-bg: rgba(30, 27, 75, 0.6);
+}
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.card {
+  background-color: var(--card-bg);
+}
